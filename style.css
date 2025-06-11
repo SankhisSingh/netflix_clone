@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url(img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+.main.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    background: #000;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 65px;
+}
+nav img{
+    width: 114px; 
+    color: crimson;
+}
